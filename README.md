@@ -64,7 +64,7 @@ Make sure you have the following installed:
 
     Create a `.env` file in the root of the project and add the following variables:
 
-    ```env
+    ```bash
     PORT=5000
     MONGO_URI=your_mongodb_connection_string
     JWT_SECRET=your_jwt_secret
@@ -75,9 +75,9 @@ Make sure you have the following installed:
 
  Start the Node.js server:
 
-    ```bash
-    nodemon dev
-    ```
+  ```bash
+  nodemon dev
+  ```
 
 The server should be running at `http://localhost:5000`.
 
